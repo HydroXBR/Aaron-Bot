@@ -1,0 +1,1214 @@
+{
+	"prefix": "-",
+  "base_lang": "pt",
+	"commands": [
+   	{
+			"name": "ajuda",
+			"description": "Com este comando, você pode consultar os comandos gerais do Aaron e suas funcionalidades.",
+			"showInHelp": true,
+			"sintax": "ajuda",
+			"info": "Você pode escrever adm, info ou fun após o comando, para exibir a categoria",
+			"similar": "help"
+		},
+    {
+			"name": "antiraid",
+			"description": "Aumenta a segurança no servidor, use no caso de início de hack, etc.",
+			"showInHelp": true,
+			"sintax": "antiraid @cargo on/off",
+			"info": "Você pode escrever adm, info ou fun após o comando, para exibir a categoria",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "id",
+			"description": "O antiraid é uma ótima ferramenta para o servidor. Ele aumenta a segurança, e, quando for necessário, por exemplo, quando seu servidor sofrer SPAM de alguém, ou um início de hackeamento, só é ativar e ele alterará as permissões do cargo selecionado. Para saber mais, use o comando antiraid. ATENÇÃO: Só ligue no momento em que suspeitar algo.",
+			"showInHelp": true,
+			"sintax": "antiraid @cargo/ID on/off",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "deletechannel",
+			"description": "Com este comando, você pode deletar um canal.",
+			"showInHelp": true,
+			"sintax": "deletechannel #canal/ID",
+			"info": "Para deletar o mesmo canal em que estiver digitando, não insira nada após o comando",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "lyrics",
+			"description": "Antiraid para Experts",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "av",
+			"description": "Exibe avatar do usuário mencionado",
+			"showInHelp": true,
+			"sintax": "av @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu avatar",
+			"similar": "avatar"
+		},
+    {
+			"name": "avatar",
+			"description": "Exibe avatar do usuário mencionado",
+			"showInHelp": true,
+			"sintax": "avatar @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu avatar",
+			"similar": "av"
+		},
+		{
+			"name": "ban",
+			"description": "O comando bane um usuário do servidor. Você pode optar por mandar ou não mensagem no privado do usuário avisando o banimento.",
+			"showInHelp": true,
+			"sintax": "ban @user/ID motivo",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "bigtxt",
+			"description": "Escreve o texto na forma de emojis grandes.",
+			"showInHelp": true,
+			"sintax": "bigtxt texto",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "binary",
+			"description": "Este comando está em desenvolvimento, e codifica o texto em binário.",
+			"showInHelp": true,
+			"sintax": "binary texto",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "caf",
+			"description": "Você pode usar esse comando para fazer cafuné em alguém",
+			"showInHelp": true,
+			"sintax": "caf @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "calc",
+			"description": "Com este comando, você pode fazer cálculos matemáticos.",
+			"showInHelp": true,
+			"sintax": "calc expressão",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "chok",
+			"description": "Com este comando, você faz uma montagem de choque.",
+			"showInHelp": true,
+			"sintax": "chok @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá a montagem com seu avatar",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "clean",
+			"description": "Com este comando, você pode limpar mensagens do chat, a única limitação é a imposta pelo Discord, ou seja, não é possível deletar mensagens com mais de 14 dias.",
+			"showInHelp": true,
+			"sintax": "clean número-de-mensagens",
+			"info": "Mínimo de 2 mensagens.",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "clima",
+			"description": "Com este comando, você pode consultar o clima e outros dados como umidade, etc., de cidades, estados, países...",
+			"showInHelp": true,
+			"sintax": "clima cidade/estado/país",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "covid",
+			"description": "Este comando exibe estatísticas da COVID-19 do mundo ou de países.",
+			"showInHelp": true,
+			"sintax": "covid país/all",
+			"info": "O all mostrará o status em todo o mundo",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "createchannel",
+			"description": "Este comando cria canais no servidor, podendo ser de texto ou voz.",
+			"showInHelp": true,
+			"sintax": "createchannel voz/texto nome",
+			"info": "Nenhuma informação",
+			"similar": "criarcanal"
+		},
+		{
+			"name": "criarcanal",
+			"description": "Este comando cria canais no servidor, podendo ser de texto ou voz.",
+			"showInHelp": true,
+			"sintax": "criarcanal voz/texto NOME",
+			"info": "Nenhuma informação",
+			"similar": "createchannel"
+		},
+		{
+			"name": "dado",
+			"description": "Com este comando você pode jogar o dado, ou seja, exibo um número aleatório de 1 a 6.",
+			"showInHelp": true,
+			"sintax": "dado",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "disconnect",
+			"description": "Use este comando quando quiser que eu me desconecte de um canal de voz.",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "dm",
+			"description": "Com este comando, você pode mandar mensagens privadas a qualquer usuário do servidor, no caso de advertências, avisos, etc.",
+			"showInHelp": true,
+			"sintax": "dm @user/ID mensagem",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "font",
+			"description": "Com este comando, escrevo o texto em outras fontes.",
+			"showInHelp": true,
+			"sintax": "font TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "help",
+			"description": "Com este comando, você pode consultar os comandos gerais do Aaron e suas funcionalidades.",
+			"showInHelp": true,
+			"sintax": "help",
+			"info": "Você pode escrever adm, info ou fun após o comando, para exibir a categoria",
+			"similar": "ajuda"
+		},
+		{
+			"name": "hi",
+			"description": "Com este comando, você pode dizer um oi a um usuário",
+			"showInHelp": true,
+			"sintax": "hi @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "oi"
+		},
+		{
+			"name": "hug",
+			"description": "Com este comando, você pode abraçar um usuário",
+			"showInHelp": true,
+			"sintax": "hug @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "ideia",
+			"description": "Com este comando, você pode dar uma ideia aos administradores. Lembre-se, primeiro, ele deve ser pré-configurado pelos administradores.",
+			"showInHelp": true,
+			"sintax": "ideia TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "sugestão"
+		},
+		{
+			"name": "joken",
+			"description": "Jogue pedra, papel, tesoura com o bot.",
+			"showInHelp": true,
+			"sintax": "joken pedra/papel/tesoura",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "kick",
+			"description": "Este comando expulsa um usuário do servidor.",
+			"showInHelp": true,
+			"sintax": "kick @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "kiss",
+			"description": "Beije alguém usando este comando.",
+			"showInHelp": true,
+			"sintax": "kiss @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "laranjo",
+			"description": "Escreva um texto com o meme do laranjo, gerado como imagem",
+			"showInHelp": true,
+			"sintax": "laranjo TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "love",
+			"description": "Diga a alguém que você o(a) ama, com uma imagem fofa",
+			"showInHelp": true,
+			"sintax": "love @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "modolento",
+			"description": "Este comando ativa o modo lento no canal em que ele é executado.",
+			"showInHelp": true,
+			"sintax": "modolento TEMPO",
+			"info": "Nenhuma informação",
+			"similar": "slowmode"
+		},
+		{
+			"name": "morse",
+			"description": "Codifica para código morse",
+			"showInHelp": true,
+			"sintax": "morse TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "number",
+			"description": "Tente descobrir o número que estou pensando, digite o número que você pensa que é, para tentar",
+			"showInHelp": true,
+			"sintax": "number SEU NÚMERO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "online",
+			"description": "Este comando mostra há quanto tempo estou online",
+			"showInHelp": true,
+			"sintax": "online",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "pflip",
+			"description": "Com este comando, você pode jogar cara ou coroa comigo",
+			"showInHelp": true,
+			"sintax": "pflip cara/coroa",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "ping",
+			"description": "Este comando exibe a latência da API e do servidor, bem como o status do Discord.",
+			"showInHelp": true,
+			"sintax": "ping",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "poll",
+			"description": "Com este comando, faça uma votação no servidor.",
+			"showInHelp": true,
+			"sintax": "poll #canal/ID TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "say",
+			"description": "Com este comando, você pode mandar uma mensagem através de mim.",
+			"showInHelp": true,
+			"sintax": "say TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "sayadm (somente para administradores)"
+		},
+		{
+			"name": "servicon",
+			"description": "Este comando exibe o ícone do servidor, em imagem, obviamente.",
+			"showInHelp": true,
+			"sintax": "servicon",
+			"info": "Nenhuma informação",
+			"similar": "servericon, svicon"
+		},
+    {
+			"name": "svicon",
+			"description": "Este comando exibe o ícone do servidor, em imagem, obviamente.",
+			"showInHelp": true,
+			"sintax": "servicon",
+			"info": "Nenhuma informação",
+			"similar": "servericon, servicon"
+		},
+    {
+			"name": "servericon",
+			"description": "Este comando exibe o ícone do servidor, em imagem, obviamente.",
+			"showInHelp": true,
+			"sintax": "servicon",
+			"info": "svicon, servicon",
+			"similar": "servericon"
+		},
+    {
+			"name": "servericon",
+			"description": "Este comando exibe o ícone do servidor, em imagem, obviamente.",
+			"showInHelp": true,
+			"sintax": "servericon",
+			"info": "Nenhuma informação",
+			"similar": "servicon"
+		},
+		{
+			"name": "servinfo",
+			"description": "Este comando exibe as informações do servidor, como número de usuários, bots, canais, etc.",
+			"showInHelp": true,
+			"sintax": "servinfo",
+			"info": "Nenhuma informação",
+			"similar": "serverinfo"
+		},
+		{
+			"name": "sev",
+			"description": "Com este comando, você pode olhar sério para um usuário",
+			"showInHelp": true,
+			"sintax": "sev @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "ship",
+			"description": "Você pode shippar usuários com este comando.",
+			"showInHelp": true,
+			"sintax": "ship @user1/ID1 @user2/ID2",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "tap",
+			"description": "Com este comando, você pode dar um tapinha em um usuário",
+			"showInHelp": true,
+			"sintax": "tap @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "tok",
+			"description": "Toca aqui!",
+			"showInHelp": true,
+			"sintax": "tok @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "txt",
+			"description": "Este comando exibe uma animação básica",
+			"showInHelp": true,
+			"sintax": "txt",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "unban",
+			"description": "Este comando revoga (remove) o banimento de um usuário",
+			"showInHelp": true,
+			"sintax": "unban ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "deleteprofile",
+			"description": "userinfo",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "unbinary",
+			"description": "Este decodifica um texto binário",
+			"showInHelp": true,
+			"sintax": "unbinary TEXTO EM BINÁRIO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "warn",
+			"description": "Este comando adverte um usuário no servidor.",
+			"showInHelp": true,
+			"sintax": "warn @user/ID motivo",
+			"info": "Eu avisarei o usuário da advertência no privado.",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "botinfo",
+			"description": "Este comando exibe minhas informações técnicas.",
+			"showInHelp": true,
+			"sintax": "botinfo",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "mute",
+			"description": "Este comando muta um usuário no servidor. Importante: necessita de pré-configurações pelos administradores, ou seja, as permissões precisam estar ajustadas.",
+			"showInHelp": true,
+			"sintax": "mute @user/ID motivo",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "sugestão",
+			"description": "Com este comando, você pode dar uma ideia aos administradores. Lembre-se, primeiro, ele deve ser pré-configurado pelos administradores.",
+			"showInHelp": true,
+			"sintax": "sugestão TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "ideia"
+		},
+		{
+			"name": "ticket",
+			"description": "Abra um ticket no servidor, para contatar os administradores. Não necessita de configuração prévia, basta usar.",
+			"showInHelp": true,
+			"sintax": "ticket",
+			"info": "Se você for um administrador, digite delete depois do comando, no canal do ticket, para deletar o ticket",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "name",
+			"description": "Este comando altera o nick de um usuário no servidor.",
+			"showInHelp": true,
+			"sintax": "name @user/ID NOVO NICKNAME",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "animalgif",
+			"description": "Este comando exibe gifs fofos de animais",
+			"showInHelp": true,
+			"sintax": "animalgif",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "addnobot",
+			"description": "Trem em ASCII",
+			"showInHelp": false,
+			"sintax": "addnobot #canal/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "kk",
+			"description": "Este comando demonstra que você está rindo muito, kkkk",
+			"showInHelp": true,
+			"sintax": "kk",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "userinfo",
+			"description": "Este comando exibe informações do usuário.",
+			"showInHelp": true,
+			"sintax": "userinfo @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "sayadm",
+			"description": "Este comando faz com que eu fale por você, e sem descrição embaixo.",
+			"showInHelp": true,
+			"sintax": "sayadm TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "say (com menção de quem mandou)"
+		},
+		{
+			"name": "poze",
+			"description": "Este comando faz uma montagem do MC Poze, com o meme Mó Paz",
+			"showInHelp": true,
+			"sintax": "poze TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "searchuser",
+			"description": "Procura o usuário no Brainly",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+		{
+			"name": "dailyv",
+			"description": "Exclusivo para administradores do bot, postagem de palavras em inglês",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    	{
+			"name": "niver",
+			"description": "Com este comando, você pode desejar feliz aniversário a alguém",
+			"showInHelp": true,
+			"sintax": "niver @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "saye",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "hey",
+			"description": "Com este comando, você pode perguntar alguma coisa a mim.",
+			"showInHelp": true,
+			"sintax": "hey PERGUNTA",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "daily",
+			"description": "Com este comando, você pode pegar seu dinheiro diário.",
+			"showInHelp": true,
+			"sintax": "daily",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "sair",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "trump",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "slowmode",
+			"description": "Este comando ativa o modo lento no canal em que ele é executado.",
+			"showInHelp": true,
+			"sintax": "slowmode TEMPO ABREVIADO",
+			"info": "Digite o tempo após o comando, por exemplo, 5min, 5s",
+			"similar": "modolento"
+		},
+    {
+			"name": "log",
+			"description": "Faça atualizações para os membros do servidor, como alterações.",
+			"showInHelp": true,
+			"sintax": "log 1/2/3 ATUALIZAÇÃO",
+			"info": "Use apenas o comando log sem nada após, para saber mais sobre",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "unmute",
+			"description": "Desmute um usuário no servidor.",
+			"showInHelp": true,
+			"sintax": "unmute @user/ID motivo",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "size",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "addnews",
+			"description": "Faça com que o bot comece a dar notícias a nível nacional e internacional no servidor.",
+			"showInHelp": true,
+			"sintax": "addnews #canal/ID",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "new",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "profissão",
+			"description": "Mude sua profissão no servidor. Ela aparecerá no seu perfil.",
+			"showInHelp": true,
+			"sintax": "profissão",
+			"info": "Nenhuma informação",
+			"similar": "work, profissao"
+		},
+    {
+			"name": "prefix",
+			"description": "Com este comando, você pode alterar o meu prefixo no seu servidor.",
+			"showInHelp": true,
+			"sintax": "prefix set NOVO PREFIXO",
+			"info": "ATENÇÃO: O novo prefixo deve ter apenas um caractere, do contrário, haverá erros",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "perfil",
+			"description": "Veja o seu perfil Aaron com este comando, aparecerá o saldo, profissão, especialidade, etc.",
+			"showInHelp": true,
+			"sintax": "perfil @user/ID",
+			"info": "Não digite nada após o comando, para exibir o seu perfil",
+			"similar": "profile"
+		},
+    {
+			"name": "zerarsaldo",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "especialidade",
+			"description": "Altere sua especialidade no servidor. Ela aparecerá no perfil Aaron",
+			"showInHelp": true,
+			"sintax": "especialidade",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "work",
+			"description": "Mude sua profissão no servidor. Ela aparecerá no seu perfil.",
+			"showInHelp": true,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "profissão, profissao"
+		},
+    {
+			"name": "profile",
+			"description": "Veja o seu perfil Aaron com este comando, aparecerá o saldo, profissão, especialidade, etc.",
+			"showInHelp": true,
+			"sintax": "profile @user/ID",
+			"info": "Não digite nada após o comando, para exibir o seu perfil",
+			"similar": "perfil"
+    },
+    {
+			"name": "gemas",
+			"description": "Troque dinheiro por gemas na sua conta Aaron.",
+			"showInHelp": true,
+			"sintax": "gemas",
+			"info": "Digite comprar QUANTIDADE após o comando, para trocar dinheiro pelas gemas",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "setsaldo",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "loja",
+			"description": "Veja a minha lojinha e compre itens para ostentar no perfil",
+			"showInHelp": true,
+			"sintax": "loja",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "carros",
+			"description": "Veja a minha lojinha e compre carros para ostentar no perfil",
+			"showInHelp": true,
+			"sintax": "carros",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "objetos",
+			"description": "Veja a minha lojinha e compre objetos para ostentar no perfil",
+			"showInHelp": true,
+			"sintax": "objetos",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "english",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "membercount",
+			"description": "Ligue o contador de membros no seu servidor",
+			"showInHelp": true,
+			"sintax": "membercount on/off",
+			"info": "Nenhuma informação",
+			"similar": "contador"
+		},
+    {
+			"name": "contador",
+			"description": "Ligue o contador de membros no seu servidor",
+			"showInHelp": true,
+			"sintax": "contador  on/off",
+			"info": "Nenhuma informação",
+			"similar": "membercount"
+		},
+    {
+			"name": "music",
+			"description": "Toque uma música no seu servidor.",
+			"showInHelp": true,
+			"sintax": "music TÍTULO,CANTOR/LINK",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "deleteall",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "dc",
+			"description": "Desconecte-me do canal de voz.",
+			"showInHelp": true,
+			"sintax": "dc",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "profissao",
+			"description": "Mude sua profissão no servidor. Ela aparecerá no seu perfil.",
+			"showInHelp": true,
+			"sintax": "profissao",
+			"info": "Nenhuma informação",
+			"similar": "work, profissão"
+		},
+    {
+			"name": "setcarros",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "setobjetos",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "cep",
+			"description": "Veja informações sobre determinado CEP com este comando",
+			"showInHelp": true,
+			"sintax": "cep (Nº DO CEP COM HÍFEN)",
+			"info": "Nenhuma informação",
+			"similar": "CEP"
+		},
+    {
+			"name": "CEP",
+			"description": "Veja informações sobre determinado CEP com este comando",
+			"showInHelp": true,
+			"sintax": "CEP (Nº DO CEP COM HÍFEN)",
+			"info": "Nenhuma informação",
+			"similar": "cep"
+		},
+    {
+			"name": "money",
+			"description": "Consulte o saldo da sua conta Aaron com este comando",
+			"showInHelp": true,
+			"sintax": "money @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu saldo",
+			"similar": "atm, saldo"
+		},
+    {
+			"name": "bal",
+			"description": "Consulte o saldo da sua conta Aaron com este comando",
+			"showInHelp": true,
+			"sintax": "bal @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu saldo",
+			"similar": "atm, saldo, balance, money"
+		},
+    {
+			"name": "balance",
+			"description": "Consulte o saldo da sua conta Aaron com este comando",
+			"showInHelp": true,
+			"sintax": "balance @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu saldo",
+			"similar": "atm, saldo, bal, money"
+		},
+    {
+			"name": "saldo",
+			"description": "Consulte o saldo da sua conta Aaron com este comando",
+			"showInHelp": true,
+			"sintax": "saldo @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu saldo",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "atm",
+			"description": "Consulte o saldo da sua conta Aaron com este comando",
+			"showInHelp": true,
+			"sintax": "atm @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá o seu saldo",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "hack",
+			"description": "Hackeie um usuário, mostrando login e senha fakes.",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "serverinfo",
+			"description": "Este comando exibe as informações do servidor, como número de usuários, bots, canais, etc.",
+			"showInHelp": true,
+			"sintax": "serverinfo",
+			"info": "Nenhuma informação",
+			"similar": "servinfo"
+		},
+    {
+			"name": "oi",
+			"description": "Com este comando, você pode dizer um oi a um usuário",
+			"showInHelp": true,
+			"sintax": "oi @user/ID",
+			"info": "Nenhuma informação",
+			"similar": "hi"
+		},
+    {
+			"name": "invert",
+			"description": "Com este comando, você pode inverter a imagem de algum perfil",
+			"showInHelp": true,
+			"sintax": "invert @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá seu avatar invertido",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "sepia",
+			"description": "Com este comando, você pode aplicar efeitos de sépia na imagem de algum perfil",
+			"showInHelp": true,
+			"sintax": "sepia @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá seu avatar com o efeito sépia.",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "p&b",
+			"description": "Com este comando, você pode aplicar efeitos preto e branco na imagem de algum perfil",
+			"showInHelp": true,
+			"sintax": "p&b @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá seu avatar em preto e branco.",
+			"similar": "pretoebranco, pb"
+		},
+    {
+			"name": "pretoebranco",
+			"description": "Com este comando, você pode aplicar efeitos preto e branco na imagem de algum perfil",
+			"showInHelp": true,
+			"sintax": "pretoebranco  @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá seu avatar em preto e branco.",
+			"similar": "pb, p&b"
+		},
+    {
+			"name": "pb",
+			"description": "Com este comando, você pode aplicar efeitos preto e branco na imagem de algum perfil",
+			"showInHelp": true,
+			"sintax": "pb @user/ID",
+			"info": "Se não mencionar ninguém após o comando, nem colocar alguma ID, exibirá seu avatar em preto e branco.",
+			"similar": "p&b, pretoebranco"
+    },
+    {
+			"name": "inverttext",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "banlist",
+			"description": "undefined",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "dd",
+			"description": "Comando de teste",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "helpers",
+			"description": "Este comando mostra as pessoas que fizeram doações e me ajudaram",
+			"showInHelp": true,
+			"sintax": "helpers",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "donate",
+			"description": "Com este comando, saiba como me ajudar a ficar online",
+			"showInHelp": true,
+			"sintax": "donate",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "setemblemas",
+			"description": "Restrito à administração",
+			"showInHelp": false,
+			"sintax": "Nenhuma sintaxe",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "pay",
+			"description": "Pague alguém com seu dinheiro da conta Aaron",
+			"showInHelp": true,
+			"sintax": "pay @user/ID QUANTIDADE",
+			"info": "Não use indicadores de multiplicação, como 10k, 10kk",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "token",
+			"description": "Gere senhas aleatórias. Não se preocupe, só você verá, enviarei no seu privado.",
+			"showInHelp": true,
+			"sintax": "token",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "add",
+			"description": "Faça com que eu envie o link para você me adicionar no seu servidor",
+			"showInHelp": true,
+			"sintax": "add",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "convite",
+			"description": "Faça com que eu envie o link do meu servidor oficial",
+			"showInHelp": true,
+			"sintax": "convite",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "equation",
+			"description": "Insira os coeficientes para calcular o resultado da equação de 2° grau",
+			"showInHelp": true,
+			"sintax": "equation a b c",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "searchyt",
+			"description": "Faça uma pesquisa no YouTube",
+			"showInHelp": true,
+			"sintax": "searchyt TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "papel",
+			"description": "Mude o papel de parede do seu perfil (comando perfil)",
+			"showInHelp": true,
+			"sintax": "papel <NÚMERO DO PAPEL>",
+			"info": "Não coloque nada após o comando, para exibir os números dos papéis e poder ver antes de comprar",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "consolenew",
+			"description": "Nenhuma informação",
+			"showInHelp": true,
+			"sintax": "Nenhuma informação",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "short",
+			"description": "Encurta link",
+			"showInHelp": true,
+			"sintax": "short LINK",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "xp",
+			"description": "Consulte o seu xp ou o de outro usuário",
+			"showInHelp": true,
+			"sintax": "xp @USER",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "level",
+			"description": "Consulte o seu level ou o de outro usuário",
+			"showInHelp": true,
+			"sintax": "xp @USER",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "setlevel",
+			"description": "Restrito à administração",
+			"showInHelp": true,
+			"sintax": "setlevel",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "setxp",
+			"description": "Restrito à administração",
+			"showInHelp": true,
+			"sintax": "setxp",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "trabalhar",
+			"description": "Trabalhe, exerça sua profissão e ganhe dinheiro na conta Aaron!",
+			"showInHelp": true,
+			"sintax": "trabalhar",
+			"info": "Nenhuma informação",
+			"similar": "work"
+    },
+    {
+			"name": "work",
+			"description": "Trabalhe, exerça sua profissão e ganhe dinheiro na conta Aaron!",
+			"showInHelp": true,
+			"sintax": "work",
+			"info": "Nenhuma informação",
+			"similar": "trabalhar"
+    },
+    {
+			"name": "setprofissao",
+			"description": "Restrito à administração",
+			"showInHelp": true,
+			"sintax": "setprofissao",
+			"info": "Nenhuma informação",
+			"similar": "trabalhar"
+    },
+    {
+			"name": "rank",
+			"description": "Mostra o ranking de saldo dos usuários do servidor",
+			"showInHelp": true,
+			"sintax": "rank",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "vote",
+			"description": "Saiba como votar em mim",
+			"showInHelp": true,
+			"sintax": "vote",
+			"info": "Insira global ou local após o comando para ver subrankings.",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "banlist",
+			"description": "Veja a lista de usuários banidos do servidor",
+			"showInHelp": true,
+			"sintax": "banlist",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "ranking",
+			"description": "Mostra o ranking de saldo dos usuários do servidor",
+			"showInHelp": true,
+			"sintax": "ranking",
+			"info": "Insira global ou local após o comando para ver subrankings.",
+			"similar": "rank"
+    },
+    {
+			"name": "levels",
+			"description": "Saiba mais sobre a relação level-xp",
+			"showInHelp": true,
+			"sintax": "levels",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "stonks",
+			"description": "Gere um meme stonks",
+			"showInHelp": true,
+			"sintax": "stonks TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "notstonks",
+			"description": "Gere um meme not stonks",
+			"showInHelp": true,
+			"sintax": "notstonks TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "baixar",
+			"description": "Faça com que eu gere um link para fazer download de um vídeo do YouTube",
+			"showInHelp": true,
+			"sintax": "baixar <link/nome do vídeo>",
+			"info": "Se você inserir o nome do vídeo, eu irei pesquisá-lo no YouTube e gerar o link para você.",
+			"similar": "Nenhuma informação"
+    },
+    {
+			"name": "cirilao",
+			"description": "Com este comando, você pode perguntar alguma coisa ao Cirilão kkkk",
+			"showInHelp": true,
+			"sintax": "cirilao PERGUNTA",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "set",
+			"description": "Configure-me no seu servidor",
+			"showInHelp": true,
+			"sintax": "set",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "deleteaaron",
+			"description": "Delete todas as suas informações, como ID de usuário, do sistema Aaron",
+			"showInHelp": true,
+			"sintax": "deleteaaron",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "news",
+			"description": "Saiba como ativar o meu sistema de notícias no seu servidor",
+			"showInHelp": true,
+			"sintax": "news",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "translate",
+			"description": "Traduza um texto (em manutenção)",
+			"showInHelp": true,
+			"sintax": "translate TEXTO",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "mod",
+			"description": "Comando restrito à administração",
+			"showInHelp": true,
+			"sintax": "mod",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		},
+    {
+			"name": "ranknaves",
+			"description": "Comando restrito à administração",
+			"showInHelp": true,
+			"sintax": "ranknaves",
+			"info": "Nenhuma informação",
+			"similar": "Nenhuma informação"
+		}
+	]
+}

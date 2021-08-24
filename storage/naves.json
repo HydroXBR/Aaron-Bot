@@ -1,1 +1,225 @@
-"teste"
+{
+	"users" : [
+    {
+			"nick":"SalomãoBorges",
+      "pts": 81,
+      "cor": "azul"
+		},
+    {
+			"nick":"ALEATÓRIO",
+      "pts": 0,
+      "cor": "esmeralda"
+		},
+    {
+			"nick":"SamuelZX",
+      "pts": 650,
+      "cor": "azul"
+		},
+    {
+			"nick": "Bella3369",
+      "pts": 640,
+      "cor": "azul"
+		},
+    {
+			"nick":"carlosabrahao",
+      "pts": 120,
+      "cor": "preta"
+		},
+    {
+			"nick":"BuildingRampart",
+      "pts": 134,
+      "cor": "preta"
+		},
+    {
+			"nick":"MuriloAntonioGD",
+      "pts": 564,
+      "cor": "preta"
+		},
+    {
+			"nick":"LewisVettel",
+      "pts": 266,
+      "cor": "marrom"
+		},
+    {
+			"nick":"SapphireAmethyst",
+      "pts": 503,
+      "cor": "marrom"
+		},
+    {
+			"nick":"marianapinheiro97",
+      "pts": 643,
+      "cor": "marrom"
+		},
+    {
+			"nick":"Izabela1104",
+      "pts": 685,
+      "cor": "violeta"
+		},
+    {
+			"nick":"bitencourtrogerio",
+      "pts": 614,
+      "cor": "violeta"
+		},
+    {
+			"nick":"jamilleirineu",
+      "pts": 306,
+      "cor": "violeta"
+    },
+    {
+			"nick":"Hikari",
+      "pts": 200,
+      "cor": "safira"
+		},
+    {
+			"nick":"Camponesa",
+      "pts": 351,
+      "cor": "safira"
+		},
+    {
+			"nick":"Liziamarcia",
+      "pts": 272,
+      "cor": "safira"
+		},
+    {
+			"nick":"BoxinderPathfinder",
+      "pts": 2367,
+      "cor": "verde"
+		},
+    {
+			"nick":"HenriqueLefundes",
+      "pts": 60,
+      "cor": "verde"
+		},
+    {
+			"nick":"FireClassis",
+      "pts": 1138,
+      "cor": "verde"
+		},
+    {
+			"nick":"cauavitorf",
+      "pts": 2585,
+      "cor": "vermelha"
+		},
+    {
+			"nick":"lasouza627",
+      "pts": 79,
+      "cor": "vermelha"
+		},
+    {
+			"nick":"dudulisboa",
+      "pts": 735,
+      "cor": "vermelha"
+		},
+    {
+			"nick":"jovemlendario",
+      "pts": 527,
+      "cor": "branca"
+		},
+    {
+			"nick":"Nerd1990",
+      "pts": 78,
+      "cor": "branca"
+		},
+    {
+			"nick":"ingridrezendeoliveir",
+      "pts": 157,
+      "cor": "branca"
+		},
+    {
+			"nick":"Guedes5132",
+      "pts": 330,
+      "cor": "amarela"
+		},
+    {
+			"nick":"Zurc",
+      "pts": 1626,
+      "cor": "amarela"
+		},
+    {
+			"nick":"1DockBR1",
+      "pts": 1487,
+      "cor": "amarela"
+		},
+    {
+			"nick":"helviotedesco",
+      "pts": 818,
+      "cor": "cinza"
+		},
+    {
+			"nick":"Mgs45",
+      "pts": 122,
+      "cor": "cinza"
+		},
+    {
+			"nick":"AlexMachad0",
+      "pts": 510,
+      "cor": "cinza"
+		},
+    {
+			"nick":"HydroXBR",
+      "pts": 185,
+      "cor": "rosa"
+		},
+    {
+			"nick":"CremildaBR",
+      "pts": 405,
+      "cor": "rosa"
+		},
+    {
+			"nick":"jucigmelo",
+      "pts": 88,
+      "cor": "rosa"
+		},
+    {
+			"nick":"procentaury",
+      "pts": 101,
+      "cor": "prata"
+		},
+    {
+			"nick":"HealthBR",
+      "pts": 160,
+      "cor": "prata"
+		},
+    {
+			"nick":"MFBarretoJR",
+      "pts": 464,
+      "cor": "prata"
+		},
+    {
+			"nick":"alfredovotta1952",
+      "pts": 2217,
+      "cor": "ciana"
+		},
+    {
+			"nick":"Lilayy",
+      "pts": 295,
+      "cor": "ciana"
+		},
+    {
+			"nick":"Bernardo",
+      "pts": 535,
+      "cor": "ciana"
+		},
+    {
+			"nick":"Atoshiki",
+      "pts": 1165,
+      "cor": "lilás"
+		},
+    {
+			"nick":"eunaoexisto9",
+      "pts": 260,
+      "cor": "lilás"
+		},
+    {
+			"nick":"luismeo64",
+      "pts": 183,
+      "cor": "lilás"
+		}
+  ],
+  "refresh":[
+    {
+      "date":"23/08/2021",
+      "hour":"20:57h"
+    }
+  ]
+}
